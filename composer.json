@@ -10,8 +10,7 @@
     }
   ],
   "require": {
-    "tourze/core": "dev-master",
-    "league/oauth2-client": "^0.11.0"
+    "tourze/core": "dev-master"
   },
   "autoload": {
     "psr-4": {
