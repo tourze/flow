@@ -1,0 +1,37 @@
+{
+  "name": "tourze/flow",
+  "description": "一个流程组件，目前不支持流程的存储，以后会逐步加入这些支持",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "YwiSax",
+      "email": "25803471@qq.com"
+    }
+  ],
+  "require": {
+    "tourze/core": "dev-master",
+    "league/oauth2-client": "^0.11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "tourze\\Flow\\": "src/"
+    },
+    "files": [
+      "bootstrap.php"
+    ]
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://git.oschina.net/ywisax/com.tourze.php.core.git"
+    },
+    {
+      "type": "composer",
+      "url": "http://php.composer.org/repo/packagist/"
+    },
+    {
+      "packagist": false
+    }
+  ]
+}
