@@ -1,11 +1,11 @@
 {
   "name": "tourze/flow",
-  "description": "一个流程组件，目前不支持流程的存储，以后会逐步加入这些支持",
+  "description": "一个简单的流程组件，目前不支持流程的存储",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
-      "name": "YwiSax",
+      "name": "tourze",
       "email": "25803471@qq.com"
     }
   ],
