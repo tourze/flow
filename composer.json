@@ -6,7 +6,7 @@
   "authors": [
     {
       "name": "tourze",
-      "email": "25803471@qq.com"
+      "email": "dev@tourze.com"
     }
   ],
   "require": {
@@ -18,6 +18,14 @@
     },
     "files": [
       "bootstrap.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tourze\\Flow\\": "tests/"
+    },
+    "files": [
+      "bootstrap-dev.php"
     ]
   }
 }
