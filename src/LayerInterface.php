@@ -2,6 +2,11 @@
 
 namespace tourze\Flow;
 
+/**
+ * 分层接口
+ *
+ * @package tourze\Flow
+ */
 interface LayerInterface
 {
 
@@ -9,7 +14,6 @@ interface LayerInterface
      * 传递当前的请求流
      *
      * @param Flow $flow
-     *
      * @return mixed
      */
     public function setFlow(Flow $flow);

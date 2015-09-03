@@ -7,7 +7,8 @@ use tourze\Base\Object;
 /**
  * Flow分层
  *
- * @property  Flow  flow
+ * @property Flow flow
+ * @package tourze\Flow
  */
 class Layer extends Object implements LayerInterface
 {
@@ -21,7 +22,6 @@ class Layer extends Object implements LayerInterface
      * 传递当前的请求流
      *
      * @param Flow $flow
-     *
      * @return mixed
      */
     public function setFlow(Flow $flow)

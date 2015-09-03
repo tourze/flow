@@ -11,5 +11,4 @@ use tourze\Base\Exception\BaseException;
  */
 class FlowException extends BaseException
 {
-
 }

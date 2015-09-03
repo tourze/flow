@@ -18,10 +18,11 @@ use tourze\Base\Object;
  *     ]);
  * $requestFlow->run();
  *
- * @property mixed              layers
+ * @property mixed          layers
  * @property LayerInterface previousLayer
  * @property LayerInterface nextLayer
- * @property mixed              previousLayerResult
+ * @property mixed          previousLayerResult
+ * @package tourze\Flow
  */
 class Flow extends Object implements FlowInterface
 {
@@ -61,7 +62,6 @@ class Flow extends Object implements FlowInterface
             // 数组格式，可以传参
             if (is_array($layer))
             {
-
             }
 
             // 如果是字符串
@@ -92,7 +92,6 @@ class Flow extends Object implements FlowInterface
      */
     public function pause()
     {
-
     }
 
     /**
